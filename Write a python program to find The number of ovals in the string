@@ -1,0 +1,10 @@
+# define a set of oval characters
+ovals = set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'])
+
+# define the input string
+string = 'The quick brown fox jumps over the lazy dog'
+
+# count the number of ovals in the string
+num_ovals = len(set(string).intersection(ovals))
+
+print("The number of ovals in the string is:", num_ovals)
